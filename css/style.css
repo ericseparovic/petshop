@@ -1,0 +1,82 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  font-size: 1.6rem;
+  padding: 0;
+  margin: 0;
+}
+
+.header__container-nav-first {
+  width: 100%;
+  height: 2.5rem;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15rem;
+}
+
+.header__container-nav-first p {
+  color: white;
+  font-size: 1.3rem;
+}
+
+.header__select-lenguage-money select {
+  font-size: 1.3rem;
+  color: white;
+  background-color: black;
+  border: none;
+}
+
+.header__container-nav-second {
+  height: 10rem;
+  width: 100%;
+  padding: 0 5rem;
+  background-color: #f0a83e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__container-nav-second img {
+  width: 30rem;
+}
+
+.header__nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.header__nav li {
+  padding-right: 1.2rem;
+}
+
+.header__nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.8rem;
+}
+
+.header__nav img {
+  width: 1.5rem;
+  margin-right: 0.2rem;
+}
+
+.header__nav li a {
+  display: flex;
+  align-items: center;
+}
+
+.header__banner {
+  background-image: url("/img/bowl-and-pet-daities-on-green-background.svg");
+  height: 55rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
