@@ -24,11 +24,11 @@ html {
 
 .header__container-nav-first p {
   color: white;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 .header__select-lenguage-money select {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: white;
   background-color: black;
   border: none;
@@ -54,7 +54,7 @@ html {
 }
 
 .header__nav li {
-  padding-right: 1.2rem;
+  padding-right: 3rem;
 }
 
 .header__nav a {
@@ -79,4 +79,43 @@ html {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+}
+
+.header__banner-text {
+  position: absolute;
+  display: inline-block;
+  text-align: center;
+  line-height: 6rem;
+  right: 2rem;
+  top: 30rem;
+}
+
+.header__banner-text h2 {
+  font-size: 5rem;
+  font-weight: 400;
+  background-color: white;
+  padding: 1.2rem 1.2rem;
+  border-radius: 0.5rem;
+  color: #3c2313;
+}
+
+.header__banner-text p {
+  font-size: 2rem;
+  color: #3c2313;
+}
+
+.header__banner-text button {
+  padding: 1.5rem 2rem;
+  color: white;
+  text-transform: uppercase;
+  background-color: #f0a83e;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  border-radius: 0.5rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.header__banner-text button:hover {
+  background-color: #c98b2e;
 }
