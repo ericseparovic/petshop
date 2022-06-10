@@ -200,12 +200,16 @@ html {
   border: none;
   background-color: #3c2313;
   font-size: 1.5rem;
+  height: 4rem;
+  max-width: 40rem;
+  width: 100%;
   color: white;
   padding: 1.2rem;
+  outline: none;
 }
 
 .form-input::placeholder {
-  color: white;
+  color: #8a8787;
 }
 
 .form__buttom {
@@ -261,11 +265,15 @@ html {
 }
 
 .footer__subscribe-correo {
+  font-size: 1.5rem;
   background-color: white;
   border-radius: 2rem;
-  padding: 2rem;
-  width: 40rem;
+  padding: 1rem;
+  max-width: 30rem;
+  width: 100%;
+  height: 4rem;
   border: none;
+  outline: none;
 }
 
 .footer__subscribe-submit {
@@ -274,24 +282,51 @@ html {
   color: white;
   padding: 1rem;
   border: none;
+  font-weight: bold;
+}
+
+.footer__subscribe-submit:hover {
+  background-color: #5a3721ef;
 }
 
 .footer__contact {
   display: flex;
-  justify-content: space-between;
-}
-
-.footer__contact {
   height: 30rem;
   background-color: #3c2313;
   color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 60px;
 }
 
 .footer__contact-logo {
-  width: 30rem;
+  width: 25rem;
+}
+
+.footer__contact-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer__contact-icons h4 {
+  font-size: 24px;
+}
+
+.footer__contact-icons p {
+  color: #8a8787;
 }
 
 .footer__contact-icon {
   display: flex;
-  gap: 2rem;
+  gap: 20px;
+}
+
+.footer__author {
+  height: auto;
+  max-height: 40px;
+  color: white;
+  background-color: black;
+  padding: 5px;
+  text-align: center;
 }
